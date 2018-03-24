@@ -10,8 +10,8 @@ tags:
 - Stack Network
 - Imports
 - Developers
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Restrictions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositories-username-repo-slug-branch-restrictions-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositories-username-repo-slug-branch-restrictions-get.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
