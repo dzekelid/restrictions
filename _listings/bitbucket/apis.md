@@ -1,15 +1,14 @@
 ---
 name: Bitbucket
 x-slug: bitbucket
-description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
-  data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-  into Bitbucket itself using the Connect framework.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+description: Collaborate on code with inline comments and pull requests. Manage and
+  share your Git repositories to build and ship software, as a team.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "901"
 tags: Restrictions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,8 +17,8 @@ apis:
   description: |-
     Returns a paginated list of all branch restrictions on the
     repository.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -30,8 +29,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -68,8 +67,8 @@ apis:
 
     Note that branch restrictions with overlapping patterns are allowed,
     but the resulting behavior may be surprising.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -78,8 +77,8 @@ apis:
 - name: Bitbucket Delete Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Delete repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -90,8 +89,8 @@ apis:
 - name: Bitbucket Get Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Get repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -102,8 +101,8 @@ apis:
 - name: Bitbucket Parameters Repositories Username Repo Slug Branch Restrictions
   x-api-slug: bitbucket
   description: Parameters repositories username repo slug branch restrictions
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -119,8 +118,8 @@ apis:
     Fields not present in the request body are ignored.
 
     See [`POST`](../../branch-restrictions#post) for details.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
   tags: Repositories, Username, Repo, Slug, Branch, Restrictions
   properties:
@@ -128,17 +127,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-put-openapi.md
 - name: Bitbucket
   x-api-slug: bitbucket
-  description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
-    data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-    into Bitbucket itself using the Connect framework.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: https://bitbucket.org/
+  description: Collaborate on code with inline comments and pull requests. Manage
+    and share your Git repositories to build and ship software, as a team.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
   baseURL: https://api.bitbucket.org//2.0
   tags: Restrictions
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/bitbucket
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
 - type: x-documentation
@@ -151,6 +151,8 @@ x-common:
   url: https://www.atlassian.com/legal/customer-agreement?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
 - type: x-twitter
   url: https://twitter.com/bitbucket
+- type: x-website
+  url: http://bitbucket.org
 - type: x-website
   url: https://bitbucket.org/
 include: []
