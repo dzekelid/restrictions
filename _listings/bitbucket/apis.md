@@ -7,39 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Restrictions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Get Repositories Username Repo Slug Branch Restrictions
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Branch Restrictions
+  x-api-slug: repositoriesusernamerepo-slugbranchrestrictions-get
   description: |-
     Returns a paginated list of all branch restrictions on the
     repository.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
-  tags: Repositories, Username, Repo, Slug, Branch, Restrictions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictions-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Branch Restrictions
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Branch Restrictions
+  x-api-slug: repositoriesusernamerepo-slugbranchrestrictions-parameters
   description: Parameters repositories username repo slug branch restrictions
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
-  tags: Repositories, Username, Repo, Slug, Branch, Restrictions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictions-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictions-parameters-openapi.md
-- name: Bitbucket Add Repositories Username Repo Slug Branch Restrictions
-  x-api-slug: bitbucket
+- name: Bitbucket - Add Repositories Username Repo Slug Branch Restrictions
+  x-api-slug: repositoriesusernamerepo-slugbranchrestrictions-post
   description: |-
     Creates a new branch restriction rule for a repository.
 
@@ -69,49 +71,53 @@ apis:
     but the resulting behavior may be surprising.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions
-  tags: Repositories, Username, Repo, Slug, Branch, Restrictions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictions-post-openapi.md
-- name: Bitbucket Delete Repositories Username Repo Slug Branch Restrictions
-  x-api-slug: bitbucket
+- name: Bitbucket - Delete Repositories Username Repo Slug Branch Restrictions
+  x-api-slug: repositoriesusernamerepo-slugbranchrestrictionsid-delete
   description: Delete repositories username repo slug branch restrictions
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
-  tags: Repositories, Username, Repo, Slug, Branch, Restrictions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-delete-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Branch Restrictions
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Branch Restrictions
+  x-api-slug: repositoriesusernamerepo-slugbranchrestrictionsid-get
   description: Get repositories username repo slug branch restrictions
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
-  tags: Repositories, Username, Repo, Slug, Branch, Restrictions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Branch Restrictions
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Branch Restrictions
+  x-api-slug: repositoriesusernamerepo-slugbranchrestrictionsid-parameters
   description: Parameters repositories username repo slug branch restrictions
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
-  tags: Repositories, Username, Repo, Slug, Branch, Restrictions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-parameters-openapi.md
-- name: Bitbucket Update Repositories Username Repo Slug Branch Restrictions
-  x-api-slug: bitbucket
+- name: Bitbucket - Update Repositories Username Repo Slug Branch Restrictions
+  x-api-slug: repositoriesusernamerepo-slugbranchrestrictionsid-put
   description: |-
     Updates an existing branch restriction rule.
 
@@ -120,23 +126,17 @@ apis:
     See [`POST`](../../branch-restrictions#post) for details.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/branch-restrictions/{id}
-  tags: Repositories, Username, Repo, Slug, Branch, Restrictions
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/repositoriesusernamerepo-slugbranchrestrictionsid-put-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Restrictions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/restrictions/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer
